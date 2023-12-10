@@ -1,0 +1,30 @@
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  margin:0;
+}
+.game-container{
+  width:600px;
+  height:500px;
+  background:#ccc;
+  border-radius:10px;
+  text-align:center;
+  padding:5px 0px;
+}
+ul{
+  list-style:none;
+}
+p{
+  font-size:20px;
+  font-weight: bold;;
+}
+.answer{
+  background: #dcd9db;
+  margin-top:10px;
+  cursor:pointer;
+  font-size:18px; 
+  border:1px solid black;
+  border-radius:5px;
+}
